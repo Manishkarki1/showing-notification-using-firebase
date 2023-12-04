@@ -3,6 +3,8 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 
 import 'package:firebasepractice/notification/home_screen.dart';
 import 'package:firebasepractice/notification/notification_services.dart';
+import 'package:firebasepractice/phone_authentication/home.dart';
+import 'package:firebasepractice/phone_authentication/ui.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
@@ -35,7 +37,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'firebase practice',
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: HomeScreenPhone(),
     );
   }
 }
